@@ -1,7 +1,6 @@
-from numpy.testing import assert_array_almost_equal
 import numpy as np
 
-from preprocessing.filters import BandPassFilter, _apply_filter, _calc_band_filters
+from mvtoolbox.preprocessing.filters import BandPassFilter
 
 
 def test_bandpass_filters():
