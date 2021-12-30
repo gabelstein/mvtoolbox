@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 
 # get the version (don't import mne here, so dependencies are not needed)
-version = '0.0.0.0.1a'
+version = ''
 
 
 setup(name='mvtoolbox',
